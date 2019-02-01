@@ -24,7 +24,7 @@ body::after {
   top: 0;
   left: 0;
   display: block;
-  width: .5vmin;
+  width: .4vmin;
   height: .5vmin;
   border-radius: 50%;
   color: transparent;
@@ -32,12 +32,17 @@ body::after {
 
 
 h1 {
+  transition: transform .2s;
   margin: 0;
   height: 12vmin;
   width: 120vmin;
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+h1:hover {
+  transform: scale(1.1);
 }
 
 h1::before {
@@ -103,3 +108,8 @@ em.planet.right {
     transform: rotate(1turn);
   }
 }
+a.nounderline:link{text-decoration:none;}
+a:link {color:#ffffff;}
+a:visited {color:#ffffff;}
+a:active {color:#ffffff;}
+a:hover {color:#ffffff;}
