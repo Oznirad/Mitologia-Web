@@ -1,20 +1,17 @@
-html {
-  margin: 0;
-  height: 45%;
+div.general{
+font-family: 'Josefin Sans', sans-serif;
+color:white;
+height: auto;
+border:red 2px solid;
 }
 
 body {
-  margin: 0;
-  height: 100%;
-  overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: black;
-  color: #ccc;
+  align-items: flex-start;
+  background: white;
+  border:red 2px solid;
 }
-
-
 html::before,
 html::after,
 body::before,
@@ -24,28 +21,32 @@ body::after {
   top: 0;
   left: 0;
   display: block;
-  width: .4vmin;
+  width: .5vmin;
   height: .5vmin;
-  border-radius: 50%;
+  border-radius: 800;
   color: transparent;
 }
+div.titulo{
+  margin-top: 200px;
+  border:red 2px solid;
+}
 
-
-h1 {
+h1.mito {
+  color:#4F4949;
   transition: transform .2s;
-  margin: 0;
-  height: 12vmin;
+  margin-top: 20px;
+  height: 15vmin;
   width: 120vmin;
   display: flex;
   justify-content: center;
   position: relative;
 }
 
-h1:hover {
+h1.mito:hover {
   transform: scale(1.1);
 }
 
-h1::before {
+h1.mito::before {
   content: "";
   display: block;
   position: absolute;
@@ -62,7 +63,7 @@ h1::before {
 em {
   font-family: 'Josefin Sans', sans-serif;
   color: currentColor;
-  font-size: 15vmin;
+  font-size: 13vmin;
   position: relative;
   font-style: normal;
   width: 20vmin;
@@ -78,15 +79,14 @@ em.planet {
 em.planet::before {
   content: "";
   position: absolute;
-  top: -5vmin;
-  left: 3.5vmin;
+  top: -.5vmin;
+  left: 1.8vmin;
   z-index: -1;
-  width: 13vmin;
-  height: 13vmin;
+  width: 11vmin;
+  height: 11vmin;
   border-radius: 50%;
 
 }
-
 em.planet.left {
   -webkit-transform-origin: 21.5vmin 7.5vmin;
   transform-origin: 21.5vmin 7.5vmin;
@@ -113,3 +113,56 @@ a:link {color:#ffffff;}
 a:visited {color:#ffffff;}
 a:active {color:#ffffff;}
 a:hover {color:#ffffff;}
+
+div.cajas{
+border:red 2px solid;
+  overflow: hidden;
+  margin-top:200px;
+}
+div.caja1{
+  transition: transform .2s;
+  border:#4F4949 2px solid ;
+  float: left;
+  border-radius: 15px 100px 30px 100px;
+  width: 300px;
+  height: 150px;
+  background-image: url("../Imagenes/odin.jpg");
+  background-size: cover;
+}
+
+div.caja2{
+  transition: transform .2s;
+  border:#4F4949 2px solid ;
+  float:right;
+  border-radius:  100px 15px 100px 30px;
+  width: 300px;
+  height: 150px;
+  background-image: url("../Imagenes/ares.jpg");
+  background-size: cover;
+}
+div.caja3{
+  transition: transform .2s;
+  border:#4F4949 2px solid ;
+  float:right;
+  margin-right:125px;
+  border-radius: 100px 100px  100px 100px;
+  width: 300px;
+  height: 150px;
+  background-image: url("../Imagenes/anubis.jpg");
+  background-size: cover;
+}
+
+#footer{
+  margin-top: 1000px;
+  border:red 2px solid;
+  height:500px;
+  width:100%;
+  background-color: black;
+}
+.contacto{
+
+}
+
+div.hover{
+  transform: scale(1.1);
+}
