@@ -26,19 +26,18 @@ body::after {
   border-radius: 800;
   color: transparent;
 }
-div.titulo{
-  margin-top: 200px;
-  border:red 2px solid;
-}
+
 
 h1.mito {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 170px;
+  border: red 2px solid;
   color:#4F4949;
   transition: transform .2s;
-  margin-top: 20px;
   height: 15vmin;
   width: 120vmin;
   display: flex;
-  justify-content: center;
   position: relative;
 }
 
@@ -122,6 +121,7 @@ border:red 2px solid;
 div.caja1{
   transition: transform .2s;
   border:#4F4949 2px solid ;
+  position:relative;
   float: left;
   border-radius: 15px 100px 30px 100px;
   width: 300px;
@@ -129,29 +129,30 @@ div.caja1{
   background-image: url("../Imagenes/odin.jpg");
   background-size: cover;
 }
-
 div.caja2{
   transition: transform .2s;
   border:#4F4949 2px solid ;
+  position:relative;
   float:right;
-  border-radius:  100px 15px 100px 30px;
-  width: 300px;
-  height: 150px;
-  background-image: url("../Imagenes/ares.jpg");
-  background-size: cover;
-}
-div.caja3{
-  transition: transform .2s;
-  border:#4F4949 2px solid ;
-  float:right;
-  margin-right:125px;
+  margin-left: 10vw;
+  margin-right: 10vw;
   border-radius: 100px 100px  100px 100px;
   width: 300px;
   height: 150px;
   background-image: url("../Imagenes/anubis.jpg");
   background-size: cover;
 }
-
+div.caja3{
+  transition: transform .2s;
+  border:#4F4949 2px solid ;
+  position:relative;
+  float: right;
+  border-radius:  100px 15px 100px 30px;
+  width: 300px;
+  height: 150px;
+  background-image: url("../Imagenes/ares.jpg");
+  background-size: cover;
+}
 #footer{
   margin-top: 1000px;
   border:red 2px solid;
