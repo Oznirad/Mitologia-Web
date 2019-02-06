@@ -2,7 +2,7 @@ div.general{
 font-family: 'Josefin Sans', sans-serif;
 color:white;
 height: auto;
-border:red 2px solid;
+
 }
 
 body {
@@ -11,6 +11,7 @@ body {
   align-items: flex-start;
   background: white;
   border:red 2px solid;
+
 }
 html::before,
 html::after,
@@ -32,7 +33,6 @@ h1.mito {
   margin-left: auto;
   margin-right: auto;
   margin-top: 170px;
-  border: red 2px solid;
   color:#4F4949;
   transition: transform .2s;
   height: 15vmin;
@@ -114,7 +114,9 @@ a:active {color:#ffffff;}
 a:hover {color:#ffffff;}
 
 div.cajas{
-border:red 2px solid;
+  border:red 2px solid;
+  height: auto;
+  width: auto;
   overflow: hidden;
   margin-top:200px;
 }
@@ -123,6 +125,7 @@ div.caja1{
   border:#4F4949 2px solid ;
   position:relative;
   float: left;
+  margin-right: 100px;
   border-radius: 15px 100px 30px 100px;
   width: 300px;
   height: 150px;
@@ -134,8 +137,21 @@ div.caja2{
   border:#4F4949 2px solid ;
   position:relative;
   float:right;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px 100px  100px 100px;
+  width: 300px;
+  height: 150px;
+  background-image: url("../Imagenes/anubis.jpg");
+  background-size: cover;
+}
+div.caja4{
+  transition: transform .2s;
+  border:#4F4949 2px solid ;
+  position:relative;
+  float:right;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 100px 100px  100px 100px;
   width: 300px;
   height: 150px;
@@ -147,6 +163,7 @@ div.caja3{
   border:#4F4949 2px solid ;
   position:relative;
   float: right;
+  margin-left: 100px;
   border-radius:  100px 15px 100px 30px;
   width: 300px;
   height: 150px;
@@ -155,7 +172,7 @@ div.caja3{
 }
 #footer{
   margin-top: 1000px;
-  border:red 2px solid;
+
   height:500px;
   width:100%;
   background-color: black;
@@ -166,4 +183,95 @@ div.caja3{
 
 div.hover{
   transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#anubis {
+  position:absolute;
+  overflow:hidden;
+  border-radius: 100px 100px  100px 100px;
+  width: 300px;
+  height: 150px;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity:0;
+  transition: opacity 0.3s;
+}
+
+div.caja2:hover div#anubis {
+  opacity:1;
+}
+
+p#head {
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: -70px;
+  margin-top: 15px;
+  transition: margin-left 0.3s;
+}
+
+div.caja2:hover p#head {
+  margin-left: 115px;
+}
+p#descripciones {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+}
+div.caja2:hover p#descripciones {
+  margin-top: 75px;
+}
+
+div#odin {
+  position:absolute;
+  overflow:hidden;
+  border-radius: 15px 100px 30px 100px;
+  width: 300px;
+  height: 150px;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity:0;
+  transition: opacity 0.3s;
+}
+div.caja1:hover div#odin {
+  opacity:1;
+}
+div.caja1:hover p#head {
+  margin-left: 115px;
+}
+div.caja1:hover p#descripciones {
+  margin-top: 75px;
+}
+
+
+div#ares {
+  position:absolute;
+  overflow:hidden;
+  border-radius:  100px 15px 100px 30px;
+  width: 300px;
+  height: 150px;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity:0;
+  transition: opacity 0.3s;
+}
+div.caja3:hover div#ares {
+  opacity:1;
+}
+div.caja3:hover p#head {
+  margin-left: 115px;
+}
+div.caja3:hover p#descripciones {
+  margin-top: 75px;
 }
