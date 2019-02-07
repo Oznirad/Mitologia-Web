@@ -1,6 +1,15 @@
+html {
+background: url("../Imagenes/fondo.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+
+
 div.general{
 font-family: 'Josefin Sans', sans-serif;
-color:white;
 height: auto;
 
 }
@@ -11,8 +20,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background: white;
-  border:red 2px solid;
+  background-color: rgba(255, 255, 255, 0.5);
+
 
 }
 html::before,
@@ -41,10 +50,12 @@ h1.mito {
   width: 120vmin;
   display: flex;
   position: relative;
+  transition: opacity .2;
 }
 
 h1.mito:hover {
   transform: scale(1.1);
+  opacity:1;
 }
 
 h1.mito::before {
@@ -116,7 +127,6 @@ a:active {color:#ffffff;}
 a:hover {color:#ffffff;}
 
 div.cajas{
-  border:red 2px solid;
   height: auto;
   width: auto;
   overflow: hidden;
@@ -147,6 +157,19 @@ div.caja2{
   background-image: url("../Imagenes/anubis.jpg");
   background-size: cover;
 }
+
+div.caja3{
+  transition: transform .2s;
+  border:#4F4949 2px solid ;
+  position:relative;
+  float: right;
+  margin-left: 100px;
+  border-radius:  100px 15px 100px 30px;
+  width: 250px;
+  height: 125px;
+  background-image: url("../Imagenes/ares.jpg");
+  background-size: cover;
+}
 div.caja4{
   transition: transform .2s;
   border:#4F4949 2px solid ;
@@ -158,18 +181,6 @@ div.caja4{
   width: 250px;
   height: 125px;
   background-image: url("../Imagenes/amaterasu.jpg");
-  background-size: cover;
-}
-div.caja3{
-  transition: transform .2s;
-  border:#4F4949 2px solid ;
-  position:relative;
-  float: right;
-  margin-left: 100px;
-  border-radius:  100px 15px 100px 30px;
-  width: 250px;
-  height: 125px;
-  background-image: url("../Imagenes/ares.jpg");
   background-size: cover;
 }
 div#anubis {
@@ -190,13 +201,13 @@ div.caja2:hover div#anubis {
 p#head {
   position: absolute;
   font-size: 1.5rem;
-  margin-left: -70px;
-  margin-top: 15px;
-  transition: margin-left 0.3s;
+  margin-left: 85px;
+  margin-top: -75px;
+  transition: margin-top 0.3s;
 }
 
 div.caja2:hover p#head {
-  margin-left: 115px;
+  margin-top: 15px;
 }
 p#descripciones {
   font-size: 1rem;
@@ -205,7 +216,7 @@ p#descripciones {
   transition: margin-top 0.4s;
 }
 div.caja2:hover p#descripciones {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 div#odin {
@@ -222,10 +233,10 @@ div.caja1:hover div#odin {
   opacity:1;
 }
 div.caja1:hover p#head {
-  margin-left: 115px;
+    margin-top: 15px;
 }
 div.caja1:hover p#descripciones {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 
@@ -243,10 +254,10 @@ div.caja3:hover div#ares {
   opacity:1;
 }
 div.caja3:hover p#head {
-  margin-left: 115px;
+    margin-top: 15px;
 }
 div.caja3:hover p#descripciones {
-  margin-top: 75px;
+margin-top: 50px;
 }
 
 div#amaterasu {
@@ -263,17 +274,17 @@ div.caja4:hover div#amaterasu {
   opacity:1;
 }
 div.caja4:hover p#head {
-  margin-left: 115px;
+    margin-top: 15px;
 }
 div.caja4:hover p#descripciones {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 #footer{
+  position:static;
   margin-top: 1000px;
-
   height:500px;
-  width:100%;
+  width:auto;
   background-color: black;
 }
 .contacto{
