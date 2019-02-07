@@ -6,6 +6,8 @@ height: auto;
 }
 
 body {
+  margin-left:15%;
+  margin-right: 15%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -127,8 +129,8 @@ div.caja1{
   float: left;
   margin-right: 100px;
   border-radius: 15px 100px 30px 100px;
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 125px;
   background-image: url("../Imagenes/odin.jpg");
   background-size: cover;
 }
@@ -137,11 +139,11 @@ div.caja2{
   border:#4F4949 2px solid ;
   position:relative;
   float:right;
-  margin-left: auto;
+  margin-left: 50px;
   margin-right: auto;
   border-radius: 100px 100px  100px 100px;
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 125px;
   background-image: url("../Imagenes/anubis.jpg");
   background-size: cover;
 }
@@ -153,9 +155,9 @@ div.caja4{
   margin-left: auto;
   margin-right: auto;
   border-radius: 100px 100px  100px 100px;
-  width: 300px;
-  height: 150px;
-  background-image: url("../Imagenes/anubis.jpg");
+  width: 250px;
+  height: 125px;
+  background-image: url("../Imagenes/amaterasu.jpg");
   background-size: cover;
 }
 div.caja3{
@@ -165,46 +167,17 @@ div.caja3{
   float: right;
   margin-left: 100px;
   border-radius:  100px 15px 100px 30px;
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 125px;
   background-image: url("../Imagenes/ares.jpg");
   background-size: cover;
 }
-#footer{
-  margin-top: 1000px;
-
-  height:500px;
-  width:100%;
-  background-color: black;
-}
-.contacto{
-
-}
-
-div.hover{
-  transform: scale(1.1);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 div#anubis {
   position:absolute;
   overflow:hidden;
   border-radius: 100px 100px  100px 100px;
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 125px;
   background-color: rgba(31, 31, 31, 0.9);
   opacity:0;
   transition: opacity 0.3s;
@@ -239,8 +212,8 @@ div#odin {
   position:absolute;
   overflow:hidden;
   border-radius: 15px 100px 30px 100px;
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 125px;
   background-color: rgba(31, 31, 31, 0.9);
   opacity:0;
   transition: opacity 0.3s;
@@ -260,8 +233,8 @@ div#ares {
   position:absolute;
   overflow:hidden;
   border-radius:  100px 15px 100px 30px;
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 125px;
   background-color: rgba(31, 31, 31, 0.9);
   opacity:0;
   transition: opacity 0.3s;
@@ -274,4 +247,39 @@ div.caja3:hover p#head {
 }
 div.caja3:hover p#descripciones {
   margin-top: 75px;
+}
+
+div#amaterasu {
+  position:absolute;
+  overflow:hidden;
+  border-radius:  100px 100px 100px 100px;
+  width: 250px;
+  height: 125px;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity:0;
+  transition: opacity 0.3s;
+}
+div.caja4:hover div#amaterasu {
+  opacity:1;
+}
+div.caja4:hover p#head {
+  margin-left: 115px;
+}
+div.caja4:hover p#descripciones {
+  margin-top: 75px;
+}
+
+#footer{
+  margin-top: 1000px;
+
+  height:500px;
+  width:100%;
+  background-color: black;
+}
+.contacto{
+
+}
+
+div.hover{
+  transform: scale(1.1);
 }
