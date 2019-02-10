@@ -15,8 +15,8 @@ height: auto;
 }
 
 body {
-  margin-left:15%;
-  margin-right: 15%;
+  margin-left:5%;
+  margin-right:5%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -137,7 +137,7 @@ div.caja1{
   border:#4F4949 2px solid ;
   position:relative;
   float: left;
-  margin-right: 100px;
+  margin-right: 70px;
   border-radius: 15px 100px 30px 100px;
   width: 250px;
   height: 125px;
@@ -163,7 +163,7 @@ div.caja3{
   border:#4F4949 2px solid ;
   position:relative;
   float: right;
-  margin-left: 100px;
+  margin-left: 70px;
   border-radius:  100px 15px 100px 30px;
   width: 250px;
   height: 125px;
