@@ -15,14 +15,12 @@ height: auto;
 }
 
 body {
+  text-align: center;
   margin-left:5%;
   margin-right:5%;
-  display:;
+  display:flow-root;
   justify-content: center;
-  align-items: flex-start;
   background-color: rgba(255, 255, 255, 0.5);
-
-
 }
 html::before,
 html::after,
@@ -281,6 +279,14 @@ div.caja4:hover p#descripciones {
   margin-top: 50px;
 }
 
+div#textaco{
+  margin-top: 150px;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
 p a{ /* #184DA8 */
 	color: #184DA8;
 	text-decoration: none;
@@ -329,11 +335,6 @@ p a:hover{ /* #184DA8 */
 	margin-top: 400px;
 	padding-top: 50px;
 	height: 550px;
-
-	background-image: url('../img/footer-background-mountain.jpg');
-	background-size: 100%;
-	background-position: center bottom;
-	background-repeat: no-repeat;
 }
 
 #footer h3{color: white; padding-top: 70px; margin: 0;}
