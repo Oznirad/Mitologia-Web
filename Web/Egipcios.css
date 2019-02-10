@@ -1,0 +1,15 @@
+html {
+background: url("../Imagenes/fondo.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+body {
+  margin-left:5%;
+  margin-right: 5%;
+  justify-content: center;
+  align-items: stretch;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+}
