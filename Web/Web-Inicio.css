@@ -17,7 +17,7 @@ height: auto;
 body {
   margin-left:5%;
   margin-right:5%;
-  display: flex;
+  display:;
   justify-content: center;
   align-items: flex-start;
   background-color: rgba(255, 255, 255, 0.5);
@@ -127,6 +127,7 @@ a:active {color:#ffffff;}
 a:hover {color:#ffffff;}
 
 div.cajas{
+  color: white;
   height: auto;
   width: auto;
   overflow: hidden;
@@ -280,17 +281,94 @@ div.caja4:hover p#descripciones {
   margin-top: 50px;
 }
 
+p a{ /* #184DA8 */
+	color: #184DA8;
+	text-decoration: none;
+}
+p a:hover{ /* #184DA8 */
+	text-decoration: underline;
+}
+
+.center-align{
+	margin: 0 auto;
+	width: 1100px;
+}
+
+.black{color: black;}
+.white{color: white;}
+
+.section-columns{
+}
+.section-columns > div{
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+
+.section-columns h2{
+	font-size: 72px;
+}
+
+#intro-container .section-columns h2{
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+
+.section-columns h3{
+	font-size: 26px;
+	font-weight: lighter;
+	line-height: 40px;
+}
+.section-columns p{
+	font-weight: lighter;
+	font-size: 16px;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
 #footer{
-  position:static;
-  margin-top: 1000px;
-  height:500px;
-  width:auto;
-  background-color: black;
-}
-.contacto{
+	margin-top: 400px;
+	padding-top: 50px;
+	height: 550px;
 
+	background-image: url('../img/footer-background-mountain.jpg');
+	background-size: 100%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
 }
 
-div.hover{
-  transform: scale(1.1);
+#footer h3{color: white; padding-top: 70px; margin: 0;}
+#footer p {color: gray; padding-bottom: 30px;}
+.bg-white{
+	background-color: white;
+}
+.bg-gray{
+	background-color: #666;
+}
+.bg-black{
+	background-color: #000;
+}
+.btn{
+	border: solid 1px;
+	padding: 20px 40px;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.btn-black{
+	border-color: black;
+	color: black;
+}
+.btn-black:hover{
+	background-color: black;
+	border-color: white;
+	color: white;
+}
+.btn-white{
+	border-color: white;
+	color: white;
+}
+
+.btn-white:hover{
+	background-color: white;
+	border-color: black;
+	color: black;
 }
