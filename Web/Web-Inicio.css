@@ -18,7 +18,7 @@ body {
   text-align: center;
   margin-left:5%;
   margin-right:5%;
-  display:flow-root;
+  display:flex;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -60,7 +60,6 @@ h1.mito::before {
   content: "";
   display: block;
   position: absolute;
-  z-index: -1;
   top: -10vmin;
   left: 43.5vmin;
   width: 32vmin;
@@ -91,7 +90,6 @@ em.planet::before {
   position: absolute;
   top: -.5vmin;
   left: 1.8vmin;
-  z-index: -1;
   width: 11vmin;
   height: 11vmin;
   border-radius: 50%;
@@ -125,17 +123,19 @@ a:active {color:#ffffff;}
 a:hover {color:#ffffff;}
 
 div.cajas{
+  position;relative;
+  margin-right: auto;
+  margin-left: auto;
+  width:auto;
+  border:red 2px solid;
   color: white;
-  height: auto;
-  width: auto;
-  overflow: hidden;
+  
   margin-top:200px;
 }
 div.caja1{
   transition: transform .2s;
   border:#4F4949 2px solid ;
-  position:relative;
-  float: left;
+  position:absolute;
   margin-right: 70px;
   border-radius: 15px 100px 30px 100px;
   width: 250px;
@@ -146,8 +146,8 @@ div.caja1{
 div.caja2{
   transition: transform .2s;
   border:#4F4949 2px solid ;
-  position:relative;
-  float:right;
+position:absolute;
+
   margin-left: 50px;
   margin-right: auto;
   border-radius: 100px 100px  100px 100px;
@@ -160,8 +160,8 @@ div.caja2{
 div.caja3{
   transition: transform .2s;
   border:#4F4949 2px solid ;
-  position:relative;
-  float: right;
+position:absolute;
+
   margin-left: 70px;
   border-radius:  100px 15px 100px 30px;
   width: 250px;
@@ -172,8 +172,8 @@ div.caja3{
 div.caja4{
   transition: transform .2s;
   border:#4F4949 2px solid ;
-  position:relative;
-  float:right;
+  position:absolute;
+
   margin-left: auto;
   margin-right: auto;
   border-radius: 100px 100px  100px 100px;
@@ -297,7 +297,7 @@ p a:hover{ /* #184DA8 */
 
 .center-align{
 	margin: 0 auto;
-	width: 1100px;
+	width: 100%;
 }
 
 .black{color: black;}
