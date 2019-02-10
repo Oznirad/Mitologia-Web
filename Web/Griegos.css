@@ -4,6 +4,7 @@ background: url("../Imagenes/fondo.jpg") no-repeat center center fixed;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
+ font-family: 'Josefin Sans', sans-serif;
 }
 body {
   margin-left:5%;
