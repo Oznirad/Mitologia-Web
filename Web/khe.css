@@ -35,7 +35,6 @@ p a:hover{ /* #184DA8 */
 .white{color: white;}
 
 .section-columns{
-	border:red 2px solid;
 }
 .section-columns > div{
 	display: inline-block;
@@ -45,7 +44,6 @@ p a:hover{ /* #184DA8 */
 
 .section-columns h2{
 	font-size: 72px;
-	
 }
 
 #intro-container .section-columns h2{
