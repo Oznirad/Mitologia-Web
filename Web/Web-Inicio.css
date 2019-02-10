@@ -18,11 +18,7 @@ body {
   text-align: center;
   margin-left:5%;
   margin-right:5%;
-<<<<<<< HEAD
   display:flow-root;
-=======
-  display:flex;
->>>>>>> ecb32a758b1818116ceb20a665a18fde36be4435
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.5);
 }
