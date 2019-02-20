@@ -123,20 +123,18 @@ a:active {color:#ffffff;}
 a:hover {color:#ffffff;}
 
 div.cajas{
-  position;relative;
   margin-right: auto;
   margin-left: auto;
   width:auto;
   border:red 2px solid;
   color: white;
-
   margin-top:200px;
+
 }
 div.caja1{
+	position:relative;
   transition: transform .2s;
   border:#4F4949 2px solid ;
-  position:absolute;
-  margin-right: 70px;
   border-radius: 15px 100px 30px 100px;
   width: 250px;
   height: 125px;
@@ -144,12 +142,9 @@ div.caja1{
   background-size: cover;
 }
 div.caja2{
+	position:relative;
   transition: transform .2s;
   border:#4F4949 2px solid ;
-position:absolute;
-
-  margin-left: 50px;
-  margin-right: auto;
   border-radius: 100px 100px  100px 100px;
   width: 250px;
   height: 125px;
@@ -158,11 +153,9 @@ position:absolute;
 }
 
 div.caja3{
+	position:relative;
   transition: transform .2s;
   border:#4F4949 2px solid ;
-position:absolute;
-
-  margin-left: 70px;
   border-radius:  100px 15px 100px 30px;
   width: 250px;
   height: 125px;
@@ -170,12 +163,9 @@ position:absolute;
   background-size: cover;
 }
 div.caja4{
+	position:relative;
   transition: transform .2s;
   border:#4F4949 2px solid ;
-  position:absolute;
-
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 100px 100px  100px 100px;
   width: 250px;
   height: 125px;
