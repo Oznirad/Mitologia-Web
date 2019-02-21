@@ -18,3 +18,7 @@ iframe#maps{
   display:block;
    margin: 0 auto;
 }
+.textocentrado{
+  text-align: center;
+  text-decoration: underline;
+}
