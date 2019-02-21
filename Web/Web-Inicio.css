@@ -126,10 +126,15 @@ div.cajas{
   margin-right: auto;
   margin-left: auto;
   width:auto;
-  border:red 2px solid;
   color: white;
   margin-top:200px;
 
+}
+.float-l{
+  float:left;
+}
+.float-r{
+  float:right;
 }
 div.caja1{
 	position:relative;
@@ -277,11 +282,45 @@ div#textaco{
 }
 
 
-p a{ /* #184DA8 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p a{
 	color: #184DA8;
 	text-decoration: none;
 }
-p a:hover{ /* #184DA8 */
+p a:hover{
 	text-decoration: underline;
 }
 
