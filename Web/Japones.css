@@ -1,5 +1,5 @@
 html {
-background: url("../Imagenes/fondo.jpg") no-repeat center center fixed;
+background: url("../Imagenes/fondoJapones.jpg") no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -17,4 +17,8 @@ iframe#maps{
   position:relative;
   display:block;
    margin: 0 auto;
+}
+.textocentrado{
+  text-align: center;
+  text-decoration: underline;
 }

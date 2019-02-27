@@ -1,5 +1,5 @@
 html {
-background: url("../Imagenes/fondo.jpg") no-repeat center center fixed;
+background: url("../Imagenes/fondoEgipcio.jpg") no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -13,4 +13,8 @@ body {
   align-items: stretch;
   background-color: rgba(255, 255, 255, 0.5);
   text-align: left;
+}
+.textocentrado{
+  text-align: center;
+  text-decoration: underline;
 }
