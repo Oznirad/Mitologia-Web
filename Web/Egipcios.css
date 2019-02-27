@@ -7,11 +7,12 @@ background: url("../Imagenes/fondoEgipcio.jpg") no-repeat center center fixed;
   font-family: 'Josefin Sans', sans-serif;
 }
 body {
+  border-radius: 10px;
   margin-left:5%;
   margin-right: 5%;
   justify-content: center;
   align-items: stretch;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: left;
 }
 .textocentrado{

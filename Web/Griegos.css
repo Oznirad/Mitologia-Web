@@ -7,6 +7,7 @@ background: url("../Imagenes/fondo.jpg") no-repeat center center fixed;
  font-family: 'Josefin Sans', sans-serif;
 }
 body {
+  border-radius: 10px;
   margin-left:5%;
   margin-right: 5%;
   justify-content: center;
